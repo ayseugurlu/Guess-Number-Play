@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>GUESS NUMBER</h1>
+      <div id="play-box">
+        <div class="input-box">
+          <input
+            type="number"
+            value=""
+            id="number-input"
+            maxlength="21"
+            placeholder="Guess Your Number"
+          />
+          <input type="submit" value="CHECK" id="check" />
+        </div>
+      </div>
+      <div id="warning"></div>
+
+      <div id="veda"></div>
+      <div id="question">
+        <p>Tekrar oynamak ister misiniz?</p>
+        <button id="yes-button">Evet</button>
+        <button id="no-button">Hayir</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
